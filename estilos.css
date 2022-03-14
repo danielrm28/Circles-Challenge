@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#Circle1{
+    height: 200px;
+    width: 200px;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(121,9,112,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 50%;
+    display: absolute;
+    z-index: 4;
+    margin-bottom: -50px;
+}
+
+#Circle2{
+    height: 200px;
+    width: 200px;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(121,9,112,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 50%;
+    display: absolute;
+    z-index: 3;
+    margin-bottom: -50px;
+}
+
+#Circle3{
+    height: 200px;
+    width: 200px;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(121,9,112,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 50%;
+    display: absolute;
+    z-index: 2;
+    margin-bottom: -50px;
+}
+
+#Circle4{
+    height: 200px;
+    width: 200px;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(121,9,112,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 50%;
+    display: absolute;
+    z-index: 1;
+    margin-bottom: -50px;
+}
